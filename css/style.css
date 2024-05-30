@@ -339,8 +339,8 @@ a:focus {
 
 .slider_section .img-box img {
   width: 100%;
-  -webkit-animation: upDown 5s infinite;
-          animation: upDown 5s infinite;
+  -webkit-animation: upDown 15s infinite;
+          animation: upDown 15s infinite;
 }
 
 @-webkit-keyframes upDown {
