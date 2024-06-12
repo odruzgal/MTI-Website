@@ -323,17 +323,19 @@ a:focus {
 
 .slider_section .detail-box .btn-box .btn1 {
   display: inline-block;
+  font-weight: bold;
+  border-radius: 4px;
   padding: 10px 15px;
   background-color: #EE964B;
   color: #ffffff;
-  border-radius: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: none;
 }
 
 .slider_section .detail-box .btn-box .btn1:hover {
-  background-color: #EE964B;
+  background-color: #d57c3d;
+  color: #ffffff;
 }
 
 .slider_section .detail-box .btn-box .btn2 {
@@ -488,16 +490,18 @@ a:focus {
 .service_section .btn-box a {
   display: inline-block;
   padding: 10px 45px;
+  font-weight: bold;
   background-color: #EE964B;
   color: #ffffff;
-  border-radius: 0;
+  border-radius: 4px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: none;
 }
 
 .service_section .btn-box a:hover {
-  background-color: #EE964B;
+  background-color: #d57c3d;
+  color: #ffffff;
 }
 
 .about_section {
@@ -532,7 +536,8 @@ a:focus {
   padding: 10px 45px;
   background-color: #EE964B;
   color: #ffffff;
-  border-radius: 0px;
+  font-weight: bold;
+  border-radius: 4px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: none;
@@ -540,7 +545,8 @@ a:focus {
 }
 
 .about_section .detail-box a:hover {
-  background-color: #EE964B;
+  background-color: #d57c3d;
+  color: #ffffff;
 }
 
 .why_section .box {
@@ -607,14 +613,16 @@ a:focus {
   padding: 10px 45px;
   background-color: #EE964B;
   color: #ffffff;
-  border-radius: 0;
+  border-radius: 4px;
+  font-weight: bold;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: none;
 }
 
 .why_section .btn-box a:hover {
-  background-color: #EE964B;
+  background-color: #d57c3d;
+  color: #ffffff;
 }
 
 /*team section */
@@ -953,4 +961,23 @@ a:focus {
   color: #EE964B;
   font-weight: bold;
 }
+
+#interestButton {
+  background-color: #EE964B;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#interestButton:hover {
+  background-color: #d57c3d;
+  color: #ffffff;
+}
+
 /*# sourceMappingURL=style.css.map */
