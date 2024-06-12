@@ -245,6 +245,24 @@ a:focus {
   top: 0;
 }
 
+.header_section .navbar-nav .nav-item .interest-btn {
+  background-color: #EE964B;
+  color: #ffffff;
+  padding: 5px 5px;
+  border-radius: 7px;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.header_section .navbar-nav .nav-item .interest-btn:hover {
+  background-color: #d57c3d;
+  color: #ffffff;
+}
+
 /*end header section*/
 /* slider section */
 .slider_section {
