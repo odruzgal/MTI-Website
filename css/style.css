@@ -570,8 +570,6 @@ a:focus {
   height: 120px;
   min-width: 120px;
   min-height: 120px;
-  border-radius: 100%;
-  border: 5px solid #00204a;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -592,6 +590,7 @@ a:focus {
 .why_section .box h5 {
   font-weight: bold;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .why_section .box p {
@@ -623,6 +622,13 @@ a:focus {
 .why_section .btn-box a:hover {
   background-color: #d57c3d;
   color: #ffffff;
+}
+
+.white-box {
+  background-color: #ffffff;
+  padding: 20px; 
+  margin-bottom: 20px;
+  border-radius: 5px;
 }
 
 /*team section */
