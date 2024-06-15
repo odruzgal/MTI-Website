@@ -422,6 +422,10 @@ a:focus {
   position: relative;
 }
 
+.heading_container p {
+  font-size: 17px
+}
+
 .service_section .box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -705,6 +709,28 @@ a:focus {
 
 .team_section .team_container .box .social_box a:hover {
   color: #EE964B;
+}
+
+.team_section .col-lg-2 {
+  width: 20%;
+  max-width: 20%;
+  flex: 0 0 20%;
+}
+
+@media (max-width: 991px) {
+  .team_section .col-sm-6 {
+    width: 50%;
+    max-width: 50%;
+    flex: 0 0 50%;
+  }
+}
+
+@media (max-width: 575px) {
+  .team_section .col-sm-6 {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
 }
 
 /*team section end*/
